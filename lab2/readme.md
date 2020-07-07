@@ -38,3 +38,18 @@ printf("%d",count)
 else
 
 printf("no result")
+
+## Delete
+just this delete index --;
+
+for(j=0;j<size;j++){
+
+        if(x==arr[j]){
+
+            for(i=x-1;i<=size;i++){
+            
+                arr[i] = arr[i+1];
+            }
+            count++;
+        }
+    }
