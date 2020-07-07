@@ -15,7 +15,7 @@ Data Structure Laboratory
    * Array Search
    * Array Deletion
 
-## Lab Assignment 3
+## Lab Assignment-03
 
    * Array Maximum
    * Array Minimum
