@@ -14,3 +14,12 @@ Data Structure Laboratory
    * Array Update
    * Array Search
    * Array Deletion
+
+## Lab Assignment 3
+
+   * Array Maximum
+   * Array Minimum
+   * Array Summation
+   * Array Average
+   * Standard Deviation
+   * Fibonacci Number
