@@ -23,3 +23,12 @@ Data Structure Laboratory
    * Array Average
    * Standard Deviation
    * Fibonacci Number
+
+## Lab Assignment-04
+
+* Array Copy
+* Array Reverse
+* Array Compare
+* Array Merge
+* Array Spilt
+* Cyclically Permute
