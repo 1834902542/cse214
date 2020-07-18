@@ -1,8 +1,8 @@
 ## Circular doubley link_list structure a node.
-struct Node
-Node attitude of Circular doubley link_list.
 
+Node attitude(properties) of Circular doubley link_list.
 
+    
     int number;
     
     node *next;
@@ -12,7 +12,7 @@ Node attitude of Circular doubley link_list.
 
 
 ## Circular doubley link_list insert Head.
-Creat a list and then set(cannected) circuler doubley link list head.  
+Creat a list and then set(connected) circuler doubley link list head.  
 
     newNode->number = number;
     
@@ -26,7 +26,7 @@ Creat a list and then set(cannected) circuler doubley link list head.
     
  ## Circular doubley link_list insert tail.
  
-Creat a list and then set(cannected) tail circuler doubley link list.  
+Creat a list and then set(connected) tail circuler doubley link list.  
  
     node *newNode = (node *) malloc(sizeof(node));
 
@@ -89,7 +89,7 @@ Creat a list and then set(cannected) tail circuler doubley link list.
                 current->previous = newNode;
                 
 ## Circular doubley link_list pop(Delete) head.
-head node count and this node fee this list .
+head node count and selection this node fee this list .
     
     node *temp = head;
 
@@ -102,7 +102,8 @@ head node count and this node fee this list .
     free(temp);
     
 ## Circular doubley link_list pop(Delete) tail.
-travarse and identify tail node and this node fee
+Travers and identify tail node and this node fee
+
     node *temp = head;
     
     node *current = head;
@@ -136,11 +137,11 @@ travarse and identify tail node and this node fee
     
     while(current != head);
     
- travrse and conder count this list namber of item .
+ Travers and conder count this list namber of item .
  
  ## Circular doubley link_list print
  
- circuler link list benifet of two way travarse head/tail.
+ Circular link list benefit of two way Travers head/tail.
  
  
         printf("Forward order print:\n");
@@ -188,9 +189,9 @@ travarse and identify tail node and this node fee
         }
         
         while(current != tail);
-  ## Serch iteam Circular doubely 
+  ## Serch iteam Circular doubley.
   
-  travarse and matching value. result yes or no . result yeas to break and No show index and  continue.
+  Travers and matching value. result yes or no . result yeas to break and No show index and  continue.
   
    do
    
