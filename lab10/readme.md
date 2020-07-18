@@ -11,7 +11,7 @@ Node attitude of Circular doubley link_list.
 
 
 ## Circular doubley link_list insert Head.
-
+Creat a list and then set(cannected) circuler doubley link list head.  
     newNode->number = number;
     
     newNode->next = newNode;
@@ -23,6 +23,7 @@ Node attitude of Circular doubley link_list.
     tail = newNode;
     
  ## Circular doubley link_list insert tail.
+Creat a list and then set(cannected) tail circuler doubley link list.  
  
     node *newNode = (node *) malloc(sizeof(node));
 
@@ -43,7 +44,7 @@ Node attitude of Circular doubley link_list.
     head->previous = tail;
     
   ## Circular doubley link_list insert Mid.
-    
+  Creat a list and then search position(any) and set(cannected) circuler doubley link list.  
      node *current = head;
      
         node *temp = (node *) malloc(sizeof(node));
@@ -84,7 +85,8 @@ Node attitude of Circular doubley link_list.
                 current->previous = newNode;
                 
 ## Circular doubley link_list pop(Delete) head.
-
+head node count and this node fee this list .
+    
     node *temp = head;
 
     tail->next = head->next;
@@ -96,7 +98,7 @@ Node attitude of Circular doubley link_list.
     free(temp);
     
 ## Circular doubley link_list pop(Delete) tail.
-
+travarse and identify tail node and this node fee
     node *temp = head;
     
     node *current = head;
