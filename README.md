@@ -33,7 +33,7 @@ Data Structure Laboratory
 * Array Spilt
 * Cyclically Permute
 
-##Lab Assignment-10(LAB mid Report)
+## Lab Assignment-10(LAB mid Report)
 
 Designing a double way Circular Linked List :
 
