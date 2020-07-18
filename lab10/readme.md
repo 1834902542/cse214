@@ -1,6 +1,6 @@
-## Circular doubley link_list structure a node.
+## Circular doubly link_list structure a node.
 
-Node attitude(properties) of Circular doubley link_list.
+Node attitude(properties) of Circular doubly link_list.
 
     
     int number;
@@ -11,8 +11,8 @@ Node attitude(properties) of Circular doubley link_list.
     
 
 
-## Circular doubley link_list insert Head.
-Creat a list and then set(connected) circuler doubley link list head.  
+## Circular doubly link_list insert Head.
+Creat a list and then set(connected) circuler doubly link list head.  
 
     newNode->number = number;
     
@@ -24,9 +24,9 @@ Creat a list and then set(connected) circuler doubley link list head.
     
     tail = newNode;
     
- ## Circular doubley link_list insert tail.
+ ## Circular doubly link_list insert tail.
  
-Creat a list and then set(connected) tail circuler doubley link list.  
+Creat a list and then set(connected) tail circuler doubly link list.  
  
     node *newNode = (node *) malloc(sizeof(node));
 
@@ -46,8 +46,8 @@ Creat a list and then set(connected) tail circuler doubley link list.
     
     head->previous = tail;
     
-  ## Circular doubley link_list insert Mid.
-  Creat a list and then search position(any) and set(cannected) circuler doubley link list.  
+  ## Circular doubly link_list insert Mid.
+  Creat a list and then search position(any) and set(cannected) circuler doubly link list.  
   
      node *current = head;
      
@@ -88,7 +88,7 @@ Creat a list and then set(connected) tail circuler doubley link list.
                 
                 current->previous = newNode;
                 
-## Circular doubley link_list pop(Delete) head.
+## Circular doubly link_list pop(Delete) head.
 head node count and selection this node fee this list .
     
     node *temp = head;
@@ -101,7 +101,7 @@ head node count and selection this node fee this list .
 
     free(temp);
     
-## Circular doubley link_list pop(Delete) tail.
+## Circular doubly link_list pop(Delete) tail.
 Travers and identify tail node and this node fee
 
     node *temp = head;
@@ -125,7 +125,7 @@ Travers and identify tail node and this node fee
     
     free(current);
 
-## Circular doubley link_list count length
+## Circular doubly link_list count length
  
  do
     {
@@ -139,7 +139,7 @@ Travers and identify tail node and this node fee
     
  Travers and conder count this list namber of item .
  
- ## Circular doubley link_list print
+ ## Circular doubly link_list print
  
  Circular link list benefit of two way Travers head/tail.
  
@@ -189,7 +189,7 @@ Travers and identify tail node and this node fee
         }
         
         while(current != tail);
-  ## Serch iteam Circular doubley.
+  ## Serch iteam Circular doubly.
   
   Travers and matching value. result yes or no . result yeas to break and No show index and  continue.
   
