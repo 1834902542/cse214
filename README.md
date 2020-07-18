@@ -32,3 +32,21 @@ Data Structure Laboratory
 * Array Merge
 * Array Spilt
 * Cyclically Permute
+
+##Lab Assignment-10(LAB mid Report)
+
+Designing a double way Circular Linked List :
+
+Fanction List :-
+ * Head
+ * Tail
+ * Size
+ * Empty
+ * Push Font
+ * push back
+ * pop font
+ * pop back
+ * back
+ * Empty
+ * Exit Program
+
