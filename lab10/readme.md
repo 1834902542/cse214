@@ -1,7 +1,6 @@
-## Circular link_list structure a node.
+## Circular doubley link_list structure a node.
 struct Node
-
-{
+Node attitude of Circular doubley link_list.
 
     int number;
     
@@ -9,9 +8,9 @@ struct Node
     
     node *previous;
     
-};
 
-## Circular link_list insert Head.
+
+## Circular doubley link_list insert Head.
 
     newNode->number = number;
     
@@ -23,7 +22,7 @@ struct Node
     
     tail = newNode;
     
- ## Circular link_list insert tail.
+ ## Circular doubley link_list insert tail.
  
     node *newNode = (node *) malloc(sizeof(node));
 
@@ -43,7 +42,7 @@ struct Node
     
     head->previous = tail;
     
-  ## Circular link_list insert Mid.
+  ## Circular doubley link_list insert Mid.
     
      node *current = head;
      
@@ -84,7 +83,7 @@ struct Node
                 
                 current->previous = newNode;
                 
-## Circular link_list pop(Delete) head.
+## Circular doubley link_list pop(Delete) head.
 
     node *temp = head;
 
@@ -96,7 +95,7 @@ struct Node
 
     free(temp);
     
-## Circular link_list pop(Delete) tail.
+## Circular doubley link_list pop(Delete) tail.
 
     node *temp = head;
     
@@ -119,7 +118,7 @@ struct Node
     
     free(current);
 
-## Circular link_list count length
+## Circular doubley link_list count length
  
  do
     {
@@ -133,7 +132,7 @@ struct Node
     
  travrse and conder count this list namber of item .
  
- ## Circular link_list print
+ ## Circular doubley link_list print
  
  circuler link list benifet of two way travarse head/tail.
  
@@ -183,7 +182,7 @@ struct Node
         }
         
         while(current != tail);
-  ## Serch iteam
+  ## Serch iteam Circular doubely 
   travarse and matching value. result yes or no . result yeas to break and No show index and  continue.
    do
     {
