@@ -45,6 +45,7 @@ Creat a list and then set(cannected) tail circuler doubley link list.
     
   ## Circular doubley link_list insert Mid.
   Creat a list and then search position(any) and set(cannected) circuler doubley link list.  
+  
      node *current = head;
      
         node *temp = (node *) malloc(sizeof(node));
@@ -185,17 +186,27 @@ travarse and identify tail node and this node fee
         
         while(current != tail);
   ## Serch iteam Circular doubely 
+  
   travarse and matching value. result yes or no . result yeas to break and No show index and  continue.
+  
    do
+   
     {
         count++;
+        
         if(current->number==value)
+        
         {
             printf("%d ", count);
+            
             break;
+            
         }
+        
         current = current->next;
+        
     }
+    
     while(current != head);
     
     
