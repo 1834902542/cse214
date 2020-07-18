@@ -1,4 +1,4 @@
-## circular link_list structure a node.
+## Circular link_list structure a node.
 struct Node
 
 {
@@ -10,3 +10,16 @@ struct Node
     node *previous;
     
 };
+
+## Circular link_list insert Head.
+
+    newNode->number = number;
+    
+    newNode->next = newNode;
+    
+    newNode->previous = newNode;
+    
+    head = newNode;
+    
+    tail = newNode;
+    
