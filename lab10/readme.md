@@ -2,6 +2,7 @@
 struct Node
 Node attitude of Circular doubley link_list.
 
+
     int number;
     
     node *next;
@@ -12,6 +13,7 @@ Node attitude of Circular doubley link_list.
 
 ## Circular doubley link_list insert Head.
 Creat a list and then set(cannected) circuler doubley link list head.  
+
     newNode->number = number;
     
     newNode->next = newNode;
@@ -23,6 +25,7 @@ Creat a list and then set(cannected) circuler doubley link list head.
     tail = newNode;
     
  ## Circular doubley link_list insert tail.
+ 
 Creat a list and then set(cannected) tail circuler doubley link list.  
  
     node *newNode = (node *) malloc(sizeof(node));
