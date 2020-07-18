@@ -83,3 +83,120 @@ struct Node
                 newNode->previous = temp;
                 
                 current->previous = newNode;
+                
+## Circular link_list pop(Delete) head.
+
+    node *temp = head;
+
+    tail->next = head->next;
+    
+    head = head->next;
+    
+    head->previous = tail;
+
+    free(temp);
+    
+## Circular link_list pop(Delete) tail.
+
+    node *temp = head;
+    
+    node *current = head;
+
+    while(current->next != head)
+    
+    {
+        temp = current;
+        
+        current = current->next;
+        
+    }
+    
+    temp->next = head;
+    
+    tail = temp;
+    
+    head->previous = tail;
+    
+    free(current);
+
+## Circular link_list count length
+ 
+ do
+    {
+        count++;
+        
+        current = current->next;
+        
+    }
+    
+    while(current != head);
+    
+ travrse and conder count this list namber of item .
+ 
+ ## Circular link_list print
+ 
+ circuler link list benifet of two way travarse head/tail.
+ 
+ 
+        printf("Forward order print:\n");
+        
+        if(head==NULL)
+        
+        {
+            printf("list Empty\n");
+            
+            return;
+            
+        }
+        
+        node *current = head;
+        
+        do
+        
+        {
+            printf("%d ", current->number);
+            
+            current = current->next;
+        }
+        
+        while(current != head);
+
+        printf("Forward order print:\n");
+        
+        if(head==NULL)
+        
+        {
+            printf("list Empty\n");
+            
+            return;
+        }
+        
+        node *current = tail;
+        
+        do
+        
+        {
+            printf("%d ", current->number);
+            
+            current = current->previous;
+            
+        }
+        
+        while(current != tail);
+  ## Serch iteam
+  travarse and matching value. result yes or no . result yeas to break and No show index and  continue.
+   do
+    {
+        count++;
+        if(current->number==value)
+        {
+            printf("%d ", count);
+            break;
+        }
+        current = current->next;
+    }
+    while(current != head);
+    
+    
+    
+    ##exit 
