@@ -1,3 +1,23 @@
+## Introduction
+
+Circular Doubly Linked List: Circular doubly linked list is a more complexed type of data structure in which a node contains pointers to its previous node as well as the next node. Circular doubly linked list doesn't contain NULL in any of the node.
+Circular Doubly Linked List has properties of both doubly linked list and circular linked list in which two consecutive elements are linked or connected by previous and next pointer and the last node points to first node by next pointer and also the first node points to last node by previous pointer.
+We can say easily Circular Doubly Linked Lists are used for implementation of advanced data structures like Fibonacci Heap.
+
+## Uses
+
+*	A circular doubly linked list is one which has both the successor pointer and predecessor pointer in circular manner. 
+*	The main advantage of using a circular doubly linked list is that it makes search operation twice as efficient.
+*	Doubly linked list can be used in navigation systems where both front and back navigation is required. 
+*	It is used by browsers to implement backward and forward navigation of visited web pages i.e. back and forward button.
+*	It is also used by various application to implement Undo and Redo functionality.
+*	It can be traversed from both the directions i.e. from head to tail or from tail to head. 
+*	Managing songs playlist in media player applications and managing shopping cart in online shopping.
+
+
+
+
+
 ## Circular doubly link_list structure a node.
 
 Node attitude(properties) of Circular doubly link_list.
