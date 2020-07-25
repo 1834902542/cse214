@@ -1,8 +1,27 @@
+## Double way circular linked list
+
+
 ## Introduction
 
 Circular Doubly Linked List: Circular doubly linked list is a more complexed type of data structure in which a node contains pointers to its previous node as well as the next node. Circular doubly linked list doesn't contain NULL in any of the node.
 Circular Doubly Linked List has properties of both doubly linked list and circular linked list in which two consecutive elements are linked or connected by previous and next pointer and the last node points to first node by next pointer and also the first node points to last node by previous pointer.
 We can say easily Circular Doubly Linked Lists are used for implementation of advanced data structures like Fibonacci Heap.
+
+Follow operation in our code:
+Implementation of double way circular linked list in data structure may provide same of the following operations:
+
+*	Head.
+*	Tail.
+*	Empty.
+*	Size.
+*	Front.
+*	Back.
+*	Push Front.
+*	Push Back.
+*	Pop Front.
+*	Pop Back.
+*	Clear.
+
 
 ## Uses
 
