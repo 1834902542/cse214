@@ -54,23 +54,23 @@ Data Structure Laboratory
         
         Element Delete
         
-    * Maximum
+   * Maximum
     
             Find 2nd Maximum
             
-    * Minimum
+   * Minimum
     
             Find 2nd Minimum
             
-    * Array Summation
-    * Array Copy
-    * Array Reverse
-    * Compare
-    * Array Merge
-    * Two Array in One Array
-    * wo sorted Array
-    * Array Split
-    * Cyclically permute
+   * Array Summation
+   * Array Copy
+   * Array Reverse
+   * Compare
+   * Array Merge
+   * Two Array in One Array
+   * wo sorted Array
+   * Array Split
+   * Cyclically permute
 
 
 ## Lab Assignment-10(LAB mid Report)
