@@ -39,17 +39,29 @@ Data Structure Laboratory
    * Decleration
    * Initialization
    * Accessing
+   
        I/O
+       
        Until End Of File
+       
         Until User Input is 0
+        
         Element Insert
+        
         Element Update
+        
         Element Search
+        
         Element Delete
+        
     * Maximum
+    
             Find 2nd Maximum
+            
     * Minimum
+    
             Find 2nd Minimum
+            
     * Array Summation
     * Array Copy
     * Array Reverse
