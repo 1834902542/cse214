@@ -72,7 +72,7 @@ Data Structure Laboratory
    * Array Split
    * Cyclically permute
    
-  ## Lab Assignment-04
+  ## Lab Assignment-06
   Linked List Basic Operations [Single Way(Singly)Linked list]:
 
    
