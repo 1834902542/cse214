@@ -33,7 +33,7 @@ Data Structure Laboratory
 * Array Spilt
 * Cyclically Permute
 
-## Lab Assignment 5
+*
 
     Array Basic operations Using Pointer:
    * Decleration
@@ -71,6 +71,27 @@ Data Structure Laboratory
    * wo sorted Array
    * Array Split
    * Cyclically permute
+   
+  ## Lab Assignment-04
+  Linked List Basic Operations [Single Way(Singly)Linked list]:
+
+   
+   
+   * Linked list Create
+   * Linked list Decleration
+   * Linked list Initialization
+   * Linked list Access
+   * Linked list Traverse
+   * Linked list Output
+   
+  ## Lab Assignment 9
+
+  * Insert Front
+  * Insert Back
+  * Insert At
+  * Insert Before
+  * Insert After
+
 
 
 ## Lab Assignment-10(LAB mid Report)
